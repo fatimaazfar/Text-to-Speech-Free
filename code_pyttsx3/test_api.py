@@ -5,7 +5,7 @@ url = "http://127.0.0.1:8000/text-to-speech"
 
 # Parameters for the request
 params = {
-    "text": "Hello, this is a test of the text to speech API.",
+    "text": "Welcome to our service, where we provide high-quality assistance tailored to your needs, ensuring a smooth and efficient experience every time.",
     "voice_id": 0  # You can change this to test different voices (e.g., 0, 1, 2, etc.)
 }
 

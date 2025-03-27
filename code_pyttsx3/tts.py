@@ -11,6 +11,9 @@ engine = pyttsx3.init()
 # List available voices (you can choose from these)
 voices = engine.getProperty('voices')
 
+# Set the speech rate to a normal value (default is around 150)
+engine.setProperty('rate', 150)
+
 @app.get("/text-to-speech")
 async def text_to_speech(text: str, voice_id: int = 1):
     """
